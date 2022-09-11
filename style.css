@@ -121,3 +121,27 @@ body {
     color: #000000;
     font-size: 30px;
 }
+
+.footer-container {
+    padding: 0;
+    background-color: paleturquoise;
+}
+
+.footer__title {
+    font-size: 30px;
+}
+
+.footer-nav__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-nav__item {
+    list-style-type: none;
+}
+
+.footer-nav__link-icon {
+    width: 50px;
+    height: 50px;
+}
