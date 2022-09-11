@@ -68,6 +68,21 @@
                 </div>
             </div>
         </section>
+
+        <section class="code-example">
+            <div class="container code-example-container">
+                <h3 class="title code-example__title">Code example</h3>
+                <p class="code-example__code"><code>
+                    function generateHashtag (str) { <br>
+                        <br>
+                        let result = str.split(' ') <br>
+                          .map(item =&gt; item.slice(0, 1).toUpperCase() + item.slice(1)).join('').trim(); <br>
+                        <br>
+                        return result.length &gt;= 140 &vert;&vert; result === '' &quest; false : '#' + result; <br>
+                      }
+                </code></p>
+            </div>
+        </section>
     </main>
 </body>
 </html>

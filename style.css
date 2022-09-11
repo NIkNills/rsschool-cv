@@ -81,3 +81,14 @@ body {
     width: 56px;
     height: 56px;
 }
+
+.code-example-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.code-example__code {
+    color: #000000;
+}
