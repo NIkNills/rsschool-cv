@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #b84bd2;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(176,215,244);
+}
+
+.header {
+    height: 200px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid whitesmoke;
+}
+
+.header-img__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header-info {
+    width: 80%;
+}
+
+.header-info__subtitle {
+    font-family: cursive, sans-serif;
+    font-size: 24px;
+}
