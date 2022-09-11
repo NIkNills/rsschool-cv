@@ -35,3 +35,12 @@ function generateHashtag (str) {
 
 * Russian — Native
 * English — A1
+
+### Contacts
+
+Service | Link
+------------ | -------------
+GitHub | https://github.com/NIkNills
+Email | niknills94@gmail.com
+Telegram | t.me/niknills
+Discord | https://discordapp.com/users/1018495933585035304/
