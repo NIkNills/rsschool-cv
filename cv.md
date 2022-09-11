@@ -20,3 +20,13 @@ Hello. My name is Nikita, I am 28 years old. I am quite a creative person, so I 
 ### Education
 
 At the moment I am taking front-end development courses at the Mella Rossa IT school.
+
+### Code example
+```
+function generateHashtag (str) {
+  let result = str.split(' ')
+    .map(item => item.slice(0, 1).toUpperCase() + item.slice(1)).join('').trim();
+
+  return result.length >= 140 || result === '' ? false : '#' + result;
+}
+```
