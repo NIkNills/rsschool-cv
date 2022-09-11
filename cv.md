@@ -16,3 +16,7 @@ Hello. My name is Nikita, I am 28 years old. I am quite a creative person, so I 
 ### My skills
 
 `HTML`, `CSS`, `SCSS`, `JS`, `Git`
+
+### Education
+
+At the moment I am taking front-end development courses at the Mella Rossa IT school.
