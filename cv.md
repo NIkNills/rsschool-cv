@@ -12,3 +12,7 @@ Hello. My name is Nikita, I am 28 years old. I am quite a creative person, so I 
 
 #### Specialist of the sales department for LLC "Red sun"
 *Jule 2020 - Present*
+
+### My skills
+
+`HTML`, `CSS`, `SCSS`, `JS`, `Git`
