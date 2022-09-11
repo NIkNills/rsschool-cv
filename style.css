@@ -107,3 +107,17 @@ body {
     padding: 0 20px;
     border: none;
 }
+
+.languages-container {
+    background-color: aliceblue;
+}
+
+.languages__list {
+    padding-left: 50px;
+}
+
+.languages__item {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 30px;
+}
