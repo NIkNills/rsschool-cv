@@ -30,3 +30,8 @@ function generateHashtag (str) {
   return result.length >= 140 || result === '' ? false : '#' + result;
 }
 ```
+
+### Languages
+
+* Russian — Native
+* English — A1
