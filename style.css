@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #b84bd2;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-color: rgb(176,215,244);
+}
+
+.title {
+    color: #000000;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header {
+    height: 200px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header-info {
+    width: 80%;
+}
+
+.header-info__subtitle {
+    font-family: cursive, sans-serif;
+    font-size: 24px;
+}
+
+.my-work-path-container {
+    background-color: aliceblue;
+}
+
+.my-work-path-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.my-work-path-card {
+    width: 80%;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+.my-work-path-card__title {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.my-skills-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.my-skills__icon {
+    width: 56px;
+    height: 56px;
+}
+
+.code-example-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.code-example__code {
+    color: #000000;
+}
+
+.education__subtitle {
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.education-school__map {
+    width: 100%;
+    height: 400px;
+    padding: 0 20px;
+    border: none;
+}
+
+.languages-container {
+    background-color: aliceblue;
+}
+
+.languages__list {
+    padding-left: 50px;
+}
+
+.languages__item {
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 30px;
+}
+
+.footer-container {
+    padding: 0;
+    background-color: paleturquoise;
+}
+
+.footer__title {
+    font-size: 30px;
+}
+
+.footer-nav__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-nav__item {
+    list-style-type: none;
+}
+
+.footer-nav__link-icon {
+    width: 50px;
+    height: 50px;
+}
