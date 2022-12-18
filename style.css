@@ -130,22 +130,22 @@ body {
   margin-bottom: 25px;
 }
 
-.my-project__list {
+.my-projects__list {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.my-project__item {
+.my-projects__item {
   width: 33%;
   list-style-type: none;
 }
 
-.my-project__img {
+.my-projects__img {
   width: 100%;
 }
 
-.my-project__img:hover {
+.my-projects__img:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
