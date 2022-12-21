@@ -50,14 +50,15 @@ body {
   transition: 0.3s;
 }
 
-.info {
-  height: 200px;
+.info-container {
+  padding: 20px 0;
 }
 
-.info-container {
+.info-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 60px;
 }
 
 .info-img__img {
@@ -66,7 +67,7 @@ body {
   border-radius: 50%;
 }
 
-.info-info {
+.info-text {
   width: 80%;
 }
 
